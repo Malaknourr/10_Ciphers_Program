@@ -1,34 +1,38 @@
-# 10 Ciphers Program 🔐
+# 🔐 CipherVault: 10-Classic Encryption Toolkit  
 
-A powerful encryption/decryption tool that implements 10 classic cipher algorithms to secure your messages.
+**Encode messages like a Cold War spy or crack codes like a cryptanalyst - all in your terminal!**  
 
-## Features 
+A robust C++ implementation of 10 historically significant cipher algorithms, perfect for learning cryptographic fundamentals or securing your secret communications.
 
-- **10 Supported Ciphers**:
-  - 🧮 Affine Cipher
-  - 🛣️ Route Cipher
-  - 🔄 Atbash Cipher
-  - 📜 Vigenère Cipher
-  - 🥓 Baconian Cipher
-  - 🔤 Simple Substitution
-  - 🏛️ Polybius Square
-  - 📻 Morse Code
-  - ⚡ XOR Cipher
-  - 🚂 Rail Fence Cipher
+## 🚀 Key Features  
 
-- **Dual Functionality**: Encrypt or decrypt any text
-- **User-Friendly**: Simple console interface 
+### 🧩 10 Cipher Collection  
+| Cipher | Era | Type |  
+|--------|-----|------|  
+| 🧮 Affine | Ancient | Substitution |  
+| 🛣️ Route | 19th C. | Transposition |  
+| 🔄 Atbash | 500 BCE | Substitution |  
+| 📜 Vigenère | 1553 | Polyalphabetic |  
+| 🥓 Baconian | 1605 | Steganography |  
+| 🔤 Simple Substitution | 1500s | Substitution |  
+| 🏛️ Polybius Square | 150 BCE | Fractionation |  
+| 📻 Morse Code | 1836 | Encoding |  
+| ⚡ XOR | 1919 | Modern |  
+| 🚂 Rail Fence | Civil War | Transposition |  
 
-## About the Project 
+### ✨ Core Capabilities  
+- **Dual-mode operation**: Encrypt/decrypt with single command  
+- **Error-resistant**: Handles invalid inputs gracefully  
+- **Educational**: Detailed algorithm explanations in code comments  
+- **Lightweight**: No external dependencies  
 
-This program was developed as an educational tool to demonstrate fundamental encryption techniques used throughout history. Each cipher represents an important milestone in cryptography:
+## 🎯 Perfect For  
+- Computer science students learning cryptography  
+- Capture The Flag (CTF) participants  
+- Puzzle enthusiasts and escape room designers  
+- Developers needing lightweight encryption  
 
-- **Historical Ciphers**: Atbash (Hebrew), Caesar variants, Vigenère (16th century)
-- **Modern Fundamentals**: XOR (basis of modern cryptography)
-- **Encoding Schemes**: Morse code, Baconian steganography
-
-The implementation balances historical accuracy with practical usability, making it perfect for:
-- Cryptography students
-- Security enthusiasts
-- Puzzle solvers
-- Anyone interested in secret communications
+## 🛠️ Getting Started  
+```bash
+g++ cipher_program.cpp -o ciphervault
+./ciphervault
