@@ -4,9 +4,9 @@
 
 A robust C++ implementation of 10 historically significant cipher algorithms, perfect for learning cryptographic fundamentals or securing your secret communications.
 
-## 🚀 Key Features  
+## Key Features  
 
-### 🧩 10 Cipher Collection  
+### 10 Cipher Collection  
 | Cipher | Era | Type |  
 |--------|-----|------|  
 | 🧮 Affine | Ancient | Substitution |  
@@ -20,19 +20,14 @@ A robust C++ implementation of 10 historically significant cipher algorithms, pe
 | ⚡ XOR | 1919 | Modern |  
 | 🚂 Rail Fence | Civil War | Transposition |  
 
-### ✨ Core Capabilities  
+### Core Capabilities  
 - **Dual-mode operation**: Encrypt/decrypt with single command  
 - **Error-resistant**: Handles invalid inputs gracefully  
 - **Educational**: Detailed algorithm explanations in code comments  
 - **Lightweight**: No external dependencies  
 
-## 🎯 Perfect For  
+## Perfect For  
 - Computer science students learning cryptography  
 - Capture The Flag (CTF) participants  
 - Puzzle enthusiasts and escape room designers  
 - Developers needing lightweight encryption  
-
-## 🛠️ Getting Started  
-```bash
-g++ cipher_program.cpp -o ciphervault
-./ciphervault
